@@ -3,7 +3,7 @@ Check the graph depth from one page to another (amount of hops for A -> B)
 
 ## idea
 
-Ever wondered how you are sometimes having a chat with a friend about fish sticks and all of the sudden the conversation goes into a dark path and you guys start talking about how dark and empty life is? Even better, you start talking about how the state monad could actually be a representation of the real world? 
+Ever wondered how you are sometimes having a chat with a friend about fish sticks and all of the sudden the conversation takes a turn and you guys start talking about how dark and empty life is? Even better, you start talking about how the state monad could actually be a representation of the real world? 
 
 Do you not ask yourself "how come we end up in Category Theory? How is CT related to fish sticks?"? Well, you should. And if you start now, you have this useless piece of crappy code to help you understand how these subjects are related! 
 
