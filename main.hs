@@ -25,9 +25,9 @@ mapAll val = map getRef (filterAll val)
 
 allComments = scrapeURL "https://en.wikipedia.org/wiki/Homoiconicity" links
    where
-       links = chroots ("a") extracted
+       links = chroots ("a") prepareNextUrl
 
-       extracted = do
+       prepareNextUrl = do
            ref   <- attr "href" anySelector
            title   <- attr "title" anySelector
            return $ NextUrl (ref, title)
